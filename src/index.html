@@ -7,11 +7,172 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>VORTEX VR</h1>
-<p>Découvrez la nouvelle génération de casques de réalité virtuelle alliant puissance, confort et immersion totale. 
-Vortex VR redéfinit votre manière de jouer, de créer et d’explorer des mondes sans limites.</p>
+
+
+
+<header>
+  <div class="zone-logo">
+    <h1>VORTEX VR</h1>
+    <div class="menu">
+      <a href="#apropos" class="bouton">En savoir plus</a>
+      <a href="#boutique" class="bouton">Boutique</a>
+      <a href="#avis" class="bouton">Avis</a>
+    </div>
+  </div>
+</header>
+
+
 <main>
-    <video src="asset/video/vortexvr pub.mp4" autoplay muted loop></video>
+
+
+
+
+  <section class="presentation" aria-labelledby="intro-titre">
+    <h2 id="intro-titre" class="sr-only">Présentation de Vortex VR</h2>
+    <p>Découvrez la nouvelle génération de casques de réalité virtuelle alliant puissance, confort et immersion totale. 
+    Vortex VR redéfinit votre manière de jouer, de créer et d’explorer des mondes sans limites.</p>
+
+
+
+    <video src="asset/video/vortexvr pub.mp4" loop autoplay muted aria-label="Vidéo de démonstration du casque Vortex VR"></video>
+ 
+  </section>
+
+
+  <section id="apropos" class="apropos" aria-labelledby="vision-titre">
+    <h2 id="vision-titre">Notre vision</h2>
+    <p>
+      Chez <strong>Vortex VR</strong>, notre mission est de repousser les limites de la réalité virtuelle.  
+      Nous croyons en un futur où les mondes virtuels deviennent aussi tangibles et naturels que la réalité elle-même.  
+      Grâce à une technologie de pointe et à un design ergonomique, nous offrons une expérience immersive qui 
+      transforme le jeu, la formation et la création en une aventure sensorielle inédite.  
+      <strong>Notre objectif :</strong> faire de la VR un espace d’expression, de découverte et de liberté pour tous.
+    </p>
+  </section>
+
+
+
+
+
+
+  <section id="boutique" class="boutique" aria-labelledby="boutique-titre">
+    <h2 id="boutique-titre">Notre boutique</h2>
+    <p>Explorez nos produits phares conçus pour une immersion totale.</p>
+
+
+
+
+    <div class="grille-produits">
+      <div class="produit">
+        <img src="asset/image/visoin pro.jpg" alt="Casque Vortex Vision Pro, modèle haut de gamme offrant une immersion exceptionnelle.">
+        <div class="description-produit">
+          <h3>Vortex Vision Pro</h3>
+          <p>Casque haut de gamme offrant une immersion exceptionnelle et une clarté visuelle sans égale.</p>
+          <span class="prix" aria-label="Prix trois mille quatre cent quatre-vingt-dix-neuf euros">3 499 €</span>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="produit">
+        <img src="asset/image/meta quest 3.jpg" alt="Casque Vor Quest 3, sans fil et performant pour le jeu et la productivité.">
+        <div class="description-produit">
+          <h3>Vor Quest 3</h3>
+          <p>Expérience VR sans fil fluide et intuitive, parfaite pour le jeu et la productivité.</p>
+          <span class="prix" aria-label="Prix six cent quarante-neuf euros">649 €</span>
+        </div>
+      </div>
+
+
+
+
+
+      <div class="produit">
+        <img src="asset/image/puco 4.jpg" alt="Casque Vortex 4, design léger et équilibré, idéal pour une immersion prolongée.">
+        <div class="description-produit">
+          <h3>Vortex 4</h3>
+          <p>Design léger et équilibré, idéal pour une immersion prolongée et confortable.</p>
+          <span class="prix" aria-label="Prix quatre cent vingt-neuf euros">429 €</span>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="produit">
+        <img src="asset/image/casque rea bleu.jpg" alt="Casque Vortex Blue VR, modèle exclusif au design bleu élégant.">
+        <div class="description-produit">
+          <h3>Vortex Blue VR</h3>
+          <p>Notre modèle exclusif alliant performance et élégance, conçu pour les gamers exigeants.</p>
+          <span class="prix" aria-label="Prix sept cent quatre-vingt-dix-neuf euros">799 €</span>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
+
+
+
+
+
+
+
+<section id="avis" class="avis" aria-labelledby="avis-titre">
+  <h2 id="avis-titre">Avis de nos clients</h2>
+
+
+
+
+
+
+  <div class="liste-avis" role="list">
+    <article class="avis-item" role="listitem" aria-label="Avis de AlexVR, 5 étoiles">
+      <h3 class="auteur-avis">AlexVR</h3>
+      <p class="note-avis" aria-label="Note cinq sur cinq">★★★★★</p>
+      <p class="commentaire-avis">“Une expérience incroyable ! Le casque Vortex Vision Pro m’a totalement bluffé.”</p>
+    </article>
+
+
+
+
+
+
+    <article class="avis-item" role="listitem" aria-label="Avis de LunaTech, 4 étoiles">
+      <h3 class="auteur-avis">LunaTech</h3>
+      <p class="note-avis" aria-label="Note quatre sur cinq">★★★★☆</p>
+      <p class="commentaire-avis">“Super produit, très confortable. Un peu cher, mais la qualité est au rendez-vous.”</p>
+    </article>
+
+
+
+
+
+
+
+    <article class="avis-item" role="listitem" aria-label="Avis de GamerFlow, 5 étoiles">
+      <h3 class="auteur-avis">GamerFlow</h3>
+      <p class="note-avis" aria-label="Note cinq sur cinq">★★★★★</p>
+      <p class="commentaire-avis">“Immersion totale ! La meilleure expérience VR que j’aie jamais eue.”</p>
+    </article>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<footer role="copyright">
+  <p>Vortex VR — © Manfredonia Dimitri.</p>
+</footer>
 </body>
 </html>

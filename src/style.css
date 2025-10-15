@@ -1,42 +1,235 @@
-
-
 body {
   margin: 0;
-  height: 100vh;
-  background: radial-gradient(circle at center, #0a0a0a, #000000);
-  font-family: 'Open Sans', sans-serif;
+  background-color: #000;
+  color: #bdefff;
+}
+
+
+
+
+
+
+header {
+  width: 100%;
+  padding: 20px 40px;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 15px #00eaff;
+  z-index: 100;
+}
+.zone-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+header h1 {
+  font-size: 2rem;
   color: #00eaff;
+  text-transform: uppercase;
+  margin: 0;
+}
+.bouton {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #12ae65;
+  color: #000;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+.presentation {
+  margin-top: 120px;
+  text-align: center;
+  padding: 40px 20px;
+  background: radial-gradient(circle at center, #0a0a0a, #000000);
+}
+.presentation p {
+  max-width: 1500px;
+  font-size: 1.8rem;
+  color: #51bde1;
+  margin: 0 auto 30px;
+}
+.presentation video {
+  width: 100%;
+  max-width: 1700px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+
+
+
+
+.apropos {
+  padding: 120px 20px;
+  background-color: #0a0a0a;
+}
+.apropos h2 {
+  font-size: 2.5rem;
+  color: #00eaff;
+  margin-bottom: 30px;
+}
+.apropos p {
+  max-width: 1800px;
+  font-size: 1.3rem;
+  color: #bdefff;
+}
+
+
+
+
+
+
+
+
+
+.boutique {
+  padding: 120px 20px;
+  background-color: #000;
+  text-align: center;
+}
+.boutique h2 {
+  font-size: 2.5rem;
+  color: #00eaff;
+  margin-bottom: 20px;
+}
+.boutique p {
+  font-size: 1.2rem;
+  color: #bdefff;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.grille-produits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 300px;
+  padding: 0 20px;
+}
+.produit {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-h1 {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 3.5rem;
-  text-transform: uppercase;
-  padding: 20px 60px;
-  border: 3px solid #00eaff;
-  border-radius: 20px;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  margin-top: 50px; 
-  margin-bottom: 20px; 
-}
-
-p {
-  max-width: 700px;
-  text-align: center;
-  line-height: 1.6;
-  color: #bdefff;
-  font-size: 1.1rem;
-  padding: 0 20px;
-}
-
-main video {
-  width: 100%;
-  height: auto;
+.produit img {
+  width: 350px;
+  height: 250px;
   object-fit: cover;
-  display: block;
- 
+  border-radius: 15px;
+}
+.produit img:hover {
+  transform: scale(1.05);
+}
+.description-produit {
+  margin-top: 15px;
+  max-width: 300px;
+  text-align: center;
+}
+.description-produit h3 {
+  font-size: 1.4rem;
+  color: #00eaff;
+  margin-bottom: 10px;
+}
+.description-produit p {
+  font-size: 1rem;
+  color: #bdefff;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.prix {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #12ae65;
+}
+
+
+
+
+
+
+.avis {
+  background-color: #0a0a0a;
+  color: #bdefff;
+  text-align: center;
+  padding: 100px 20px;
+}
+.avis h2 {
+  font-size: 2.5rem;
+  color: #00eaff;
+  margin-bottom: 40px;
+}
+.liste-avis {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.avis-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #00eaff;
+  border-radius: 15px;
+  padding: 20px;
+}
+.auteur-avis {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #12ae65;
+}
+.note-avis {
+  font-size: 1.5rem;
+  color: #ffd700;
+}
+.commentaire-avis {
+  color: #8ed6ed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  color: #00eaff;
 }
